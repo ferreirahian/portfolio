@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+
+
+#Profile, #Skills, #Projects, #Contact {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.main-profile {
+    text-align: justify;
+}
+
+.navbar h4 {
+    display: inline-block;
+}
+
+.nav li a {
+    color: white;
+}
+
+.nav li:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.main-profile {
+    letter-spacing: 1px;
+}
+
+.main-profile-2 svg {
+    transition: ease-in-out;
+    transition: 1s;
+    margin-bottom: 5rem;
+}
+
+.main-profile-2 svg:hover {
+    transform: scale(1.2);
+}
+
+.hard-skills ul {
+    list-style: none;
+    text-align: justify;
+}
+
+.hard-skills ul li {
+    padding: 0.8rem;
+}
+
+.hard-skills ul li img {
+    max-width: 1rem;
+    margin-left: 0.6rem;
+    transition: 1s;
+    transform: rotate(0);
+}
+
+.hard-skills ul li img:hover {
+    transform: rotate(360deg);
+}
+
+.soft-skills ul {
+    list-style: none;
+    text-align: end;   
+}
+
+.soft-skills ul li {
+    padding: 0.8rem;
+}
+
+.git-hian a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.git-hian h5 {
+    transition: ease-in-out;
+    transition: 1s;
+}
+
+.git-hian h5:hover {
+    transform: scale(1.2);
+}
+
+#Contact {
+    justify-content: center;
+}
+
+.contato li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+    
+}
+
+.contato li a {
+    text-decoration: none;
+    color: white;
+}
+
+
